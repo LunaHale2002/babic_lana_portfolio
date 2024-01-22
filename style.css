@@ -3,22 +3,52 @@
   margin: 0;
 }
 
-header {
+body {
   background-color: black;
-  font-family: Space Grotesk;
-  color: #FFFFFF;
+  font-family: "Space Grotesk";
   text-align: center;
   align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-image: url(public/images/image-profile-mobile.webp);
+  background-repeat: no-repeat;
+  font-family: Space Grotesk;
+  color: #FFFFFF;
 }
 
 .icons {
   flex-direction: row;
 }
 
-.p {
-  color: #D9D9D9;
+.circle {
+  padding-left: 670px;
+  width: 129px;
+  height: 129px;
 }
 
-.mail {
-  color: #FFFFFF;
+.rings {
+  
+}
+
+.p {
+  color: #D9D9D9;
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.mail:hover {
+  color: #4EE1A0;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 32px;
+  font-style: normal;
 }
