@@ -13,6 +13,8 @@ body {
 
 header {
   background-image: url(public/images/image-profile-mobile.webp);
+  position: relative;
+  left: 200px;
   background-repeat: no-repeat;
   font-family: "Space Grotesk";
   color: #FFFFFF;
