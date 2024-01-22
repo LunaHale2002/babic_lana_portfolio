@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
 
 header {
   background-image: url(public/images/image-profile-mobile.webp);
+  padding-top: 20px;
   position: relative;
   left: 200px;
   background-repeat: no-repeat;
@@ -20,14 +22,25 @@ header {
   color: #FFFFFF;
 }
 
+header h1 {
+  text-decoration: underline #4EE1A0;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .icons {
+  display: flex;
   flex-direction: row;
 }
 
 .circle {
-  padding-left: 670px;
-  width: 129px;
-  height: 129px;
+  padding-left: 470px;
 }
 
 .p {
@@ -40,6 +53,7 @@ header {
 }
 
 .mail:hover {
+  cursor: pointer;
   color: #4EE1A0;
 }
 
