@@ -31,6 +31,24 @@ header h1 {
   text-decoration: underline #4EE1A0;
 }
 
+.experience h1 {
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+
+.experience p {
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
 .block {
   display: flex;
   flex-direction: column;
@@ -86,4 +104,14 @@ header h1 {
 
 .Projects h3 {
   text-decoration: underline #4EE1A0;
+}
+
+a {
+  color: white;
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 2.286px;
 }
