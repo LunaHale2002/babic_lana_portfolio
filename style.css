@@ -20,8 +20,6 @@ header {
   position: relative;
   left: 200px;
   background-repeat: no-repeat;
-  font-family: "Space Grotesk";
-  color: #FFFFFF;
 }
 
 header h1 {
@@ -72,6 +70,20 @@ header h1 {
   font-style: normal;
 }
 
-.projects {
+.project {
+  display: inline flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 71px;
+}
+
+.Projects {
   color: #FFFFFF;
+  padding-top: 20px;
+  position: relative;
+  left: 25px;
+}
+
+.Projects h3 {
+  text-decoration: underline #4EE1A0;
 }
